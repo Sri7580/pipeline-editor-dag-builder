@@ -19,9 +19,7 @@ A visual pipeline editor to create and validate Directed Acyclic Graphs (DAGs) u
 ## 🛠 Setup Instructions
 
 ```bash
-git clone https://github.com/yourusername/pipeline-editor-dag-builder.git
+git clone https://github.com/Sri7580/pipeline-editor-dag-builder.git
 cd pipeline-editor-dag-builder
 npm install
-npm run dev   # if using Vite
-# OR
 npm start     # if using Create React App
