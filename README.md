@@ -1,25 +1,39 @@
-# 🚀 Pipeline Editor – DAG Builder
+# ⚙️ Pipeline Editor – DAG Builder
 
-A visual pipeline editor to create and validate Directed Acyclic Graphs (DAGs) using React and React Flow.
+An interactive React-based editor for visually creating and managing Directed Acyclic Graphs (DAGs), simulating real-time data pipelines or workflows.
 
-## 🔧 Features
+### 🌐 Live Demo
+[Click to View Deployed App](https://pipeline-editor-dag-builder-plum.vercel.app/)
 
-- ➕ Add custom-named nodes
-- 🔗 Draw directional edges (with arrowheads)
-- 🧠 Validates DAG (cycle detection, connectivity, self-loop check)
-- 🗑️ Delete selected nodes or edges
-- 🧭 Auto Layout (via Dagre)
-- 📄 Live JSON DAG structure preview
-- 🌙 Clean, dark-themed UI
+---
 
-## 🖥 Demo
+## 🚀 Features
 
-🌐 [View Live on Vercel](https://pipeline-editor.vercel.app)
+- ➕ Add nodes with custom labels
+- 🔗 Draw directional edges with arrowheads
+- 🔄 Enforce connection rules (no self-loops, no incoming→incoming)
+- 🗑️ Delete nodes or edges using the `Delete` key or toolbar
+- 🧠 Real-time DAG validation (cycle detection, connectivity)
+- 🧭 Auto layout using `dagre` for clean visual flow
+- 🧩 JSON structure preview for debugging
+- 🎨 Dark theme, intuitive UX, responsive UI
 
-## 🛠 Setup Instructions
+---
+
+## 🛠️ Technologies Used
+
+- **React** – UI framework
+- **React Flow** – Interactive graph library
+- **Dagre.js** – Auto layout engine
+- **JavaScript** – Core logic
+- **Vercel** – Deployment
+
+---
+
+## 📦 Installation
 
 ```bash
 git clone https://github.com/Sri7580/pipeline-editor-dag-builder.git
 cd pipeline-editor-dag-builder
 npm install
-npm start     # if using Create React App
+npm start 
