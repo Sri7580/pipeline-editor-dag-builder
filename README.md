@@ -29,6 +29,18 @@ An interactive React-based editor for visually creating and managing Directed Ac
 - **Vercel** – Deployment
 
 ---
+## 📸 Screenshots
+
+### ✅ Valid DAG Status
+![Valid DAG](./screenshots/Screenshot (88).png)
+
+### 🧭 Auto Layout in Action
+![Auto Layout](./screenshots/auto-layout.png)
+
+### 🧾 JSON Preview Panel
+![JSON Preview](./screenshots/json-preview.png)
+
+
 
 ## 📦 Installation
 
@@ -37,3 +49,6 @@ git clone https://github.com/Sri7580/pipeline-editor-dag-builder.git
 cd pipeline-editor-dag-builder
 npm install
 npm start 
+
+
+
